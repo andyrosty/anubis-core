@@ -46,7 +46,7 @@ variable "artifact_vm_name" {
 
 variable "artifact_vm_memory" {
   type        = number
-  default     = 4096
+  default     = 6144
   description = "Dedicated memory for artifact repository VM in MB."
 }
 
