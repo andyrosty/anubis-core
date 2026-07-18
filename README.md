@@ -63,7 +63,7 @@ terraform apply
 
 ### AI lab environment
 
-This repository also includes an AI-focused lab under `environments/homelab/ai`. To plan and apply that environment using a named plan file:
+This repository also includes an AI-focused lab under `environments/homelab/ai`. To plan and apply that environment using a named plan file (do not commit `*.tfplan` artifacts):
 
 ```bash
 cd environments/homelab/ai
