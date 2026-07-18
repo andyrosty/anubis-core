@@ -88,4 +88,4 @@ Destroy the lab from the same directory when you're finished:
 terraform destroy
 ```
 
-This tears down every VM created through the `k3s_nodes` module instances.
+This tears down every VM created through the module instances in the selected environment (for example, `k3s_nodes` or `ai_nodes`).
